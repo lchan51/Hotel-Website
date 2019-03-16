@@ -4,9 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 /* Utility */
 a {
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .current,
 .text-primary {
@@ -24,21 +27,29 @@ a {
 .container {
   max-width: 1100px;
   margin: auto;
-  padding: 0 20px;
+  padding: 20px 20px;
   overflow: auto;
 }
 
-h1, h2, h3, h4,  {
+h1, h2, h3, h4 {
   padding-bottom: 20px
 }
 
 .bg-dark {
-  background: #333333;
+  background: darkolivegreen;
   color: white}
 
+.bg-light {
+  background: gray;
+  color: white
+  }
+
+.clr {clear: both}
+
 p {
-  margin 10px 0;
+  margin 10px;
 }
+
 
 /* Navbar */
 nav {
@@ -76,10 +87,12 @@ nav ul li a:hover {
   background: #444;
   color: peachpuff;
 }
+
+
 */*Showcase*/
 #showcase {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
-  height: 400px;
+  height: 500px;
   color: white;
   text-align: center;
   padding-top: 100px;
@@ -93,13 +106,14 @@ nav ul li a:hover {
   line-height: 1.2em;
   padding-bottom: 20px;
   color: white;
-  padding-bottom: 20px;
 }
+
 
 /* Home Info */
 #home-info {
-  height: 300px;
+  height: 400px;
 }
+
 #home-info .info-img {
   float: left;
   width: 50%;
@@ -117,14 +131,37 @@ nav ul li a:hover {
   overflow: hidden;
   background: gray
 }
+
 #home-info .info-content p {
   margin-bottom: 50px
 }
-  /*Features */
 
+
+  /*Features */
   .box {
     float: left;
+    min-height: 300px;
     width: 33.33%;
     padding: 50px;
     text-align: center
   }
+
+
+  /*Footer */
+  footer{
+    text-align: center;
+    min-height: 30px;
+    
+    
+
+    
+    
+    
+  
+
+
+  
+  
+  }
+  t
+
